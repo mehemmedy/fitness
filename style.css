@@ -5,6 +5,13 @@
     list-style: none;
     text-decoration: none;
 }
+body{
+    width: 100%;
+}
+.bg-yasil{background-color: #a1c927;}
+.bg-qirmizi{background-color: #fd634d;}
+.bg-ag{background-color: white;}
+
 header{
     background: url("img/headerbg.jpg") no-repeat;
     height: 100vh;
@@ -12,27 +19,27 @@ header{
     background-position: center;
     position: relative;
 }
-.row{
+.header-top{
     display: flex;
     justify-content: space-between;
 }
-.col{
+.col1{
     padding: 40px 23px;
     display: flex;
 }
-.col p{
+.col1 p{
     font-size: 1.3em;
     position: relative;
     color: white;
 }
-.col i{
+.col1 i{
     font-size: 1.9em;
     color: red;
 }
-.col menu{
+.col1 menu{
     display: flex;
 }
-.col menu li a{
+.col1 menu li a{
     padding-right: 65px;
     color: white;
 }
@@ -49,8 +56,31 @@ header{
 .row1 h5{
     font-size: 15px;
 }
-
-
+.row{
+    display: flex;
+    width: 80%;
+}
+.col25{
+    width: 25%;
+    padding: 110px 20px;
+    color: white;
+}
+.col25 h3{
+    padding:24px 0 ;
+}
+.main1{
+    justify-content: center;
+    display: flex;
+}
+.col25 button{
+    margin-top: 25px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.col25 i{
+    font-size: 2.5em;
+}
 
 @media only screen and (min-width: 768px) {
 
