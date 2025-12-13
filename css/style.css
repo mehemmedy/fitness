@@ -1,0 +1,208 @@
+:root {
+    --yasil: #a1c927;
+    --qirmizi: #fd634d;
+}
+header {
+    position: relative;
+    height: 100vh;
+    background: url('../img/headerbg.jpg') 55% 50%/cover;
+    text-align: center;
+}
+nav { padding: 4.5vh 3vw; }
+menu { padding: 20px 0 0 0}
+menu li a {
+    font: .9em 'Avenir Next Rounded Std', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+}
+#title { 
+    position: absolute;
+    width: 100%;
+    bottom: 15vh;
+}
+h1, h5 { 
+    font-family: 'Myriad Pro';
+    text-transform: uppercase;
+    color: #fff;
+}
+h1 { font-size: 2em }
+h2 {
+    font: 2.3em 'Open Sans';
+    text-transform: uppercase;
+}
+h3 { 
+    font: 400 1.5em 'Open Sans', sans-serif;
+    padding: 20px 0;
+}
+h5 {
+    font-size: 1em;
+    letter-spacing: 3px;
+}
+h6 { 
+    font: .9em Montserrat;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+h1 span { color: var(--yasil) }
+h5 span { color: var(--qirmizi) }
+
+#art4 { padding: 68px 0 }
+.col25 { padding: 34px 10px }
+#art4 i { font-size: 3em;}
+#art4 { 
+    font: .9em/1.5 'Proxima Nova';
+}
+
+.bg-yasil { background-color: var(--yasil) }
+.bg-qirmizi { background-color: var(--qirmizi) }
+.bg-ag { background-color: #fff }
+.txt-yasil { color: var(--yasil) }
+.txt-qirmizi { color: var(--qirmizi) }
+.txt-ag { color: #fff }
+.vh50 { height: 50vh;}
+.acenter { text-align: center; }
+.aright { float: right; }
+.artpadding { padding: 60px; }
+.artpadding p { font: .9em/1.5 'Open Sans'; padding: 20px 0}
+
+#fitnessfirst { background: url('../img/fitnessfirst.jpg') center/cover; }
+#yourbody { background: url('../img/yourbody.jpg') center/cover; }
+#yourbody { background: url('../img/yourbody.jpg') center/cover; }
+#lifestyle { background: url('../img/lfestyle.jpg') center/cover; }
+#summeroffun { background: url('../img/summeroffun.jpg') center/cover; }
+#grape { background: url('../img/grape.jpg') center/cover; }
+#mango { background: url('../img/mango.jpg') center/cover; }
+
+
+.footer-top{
+    background: url('../img/footer.jpg') center/cover;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;  
+    align-items: center;      
+    text-align: center;
+    height: 700px;
+}
+
+#p1{
+    width: 1182px;
+    height: 107px;
+    font-size: 45px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+#p2{
+    width: 518px;
+    height: 46px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+.footer-bottom{
+    background: #0c1119;
+}
+.row1{
+    height: 150px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+#p3{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding: 32px 0;
+}
+#p4{
+    font-size: 14px;
+    color: #8297a7;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.row2 a{
+    color: white;
+    background-color: white;
+    height: 52px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 12px;
+}
+
+#fb{background-color: #2e3092;}
+#tw{background-color: #00adef;}
+#yt{background-color: #ed3123;}
+#ld{background-color: #16198f;}
+
+#fb:hover,
+#tw:hover,
+#yt:hover,
+#ld:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.row3{
+    display: flex;
+    justify-content: right;
+    width: 75%;
+    padding: 50px 0;
+}
+.row3 input:first-of-type {
+    width: 200px;
+}
+.row3 input:last-of-type {
+    width: 340px;
+}
+.row3 input{
+    padding: 15px 23px;
+    margin-left: 6px;
+    outline: none;
+}
+.row3 button{
+    padding: 15px 31px;
+    margin-left: 6px;
+    color: white;
+}
+@media only screen and (min-width: 768px) {
+    .container { 
+        max-width: 1180px;
+        margin: auto
+    }
+    header { text-align: initial }
+    menu { float: right }
+    menu>li { 
+        display: inline-block;
+        padding: 0 1.85vw;
+    }
+    #title { 
+        width: initial;
+        left: 6.25vw;
+    }
+    h1 { font-size: 2.5em }
+    h5 { 
+        text-align: right;
+        padding: 10px 20px;
+    }
+    .row::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+    .col25 { width: 25%; }
+    .col33 { width: 33.33%; }
+    .col66 { width: 66.66%; }
+    .fleft { float: left; }
+    .fright { float: right; }
+
+}
