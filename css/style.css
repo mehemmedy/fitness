@@ -86,20 +86,17 @@ h5 span { color: var(--qirmizi) }
 }
 
 #p1{
-    width: 1182px;
-    height: 107px;
-    font-size: 45px;
+    font-size: 3em;
     letter-spacing: 0px;
     line-height: 40px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Open Sans";
     text-align: center;
+    padding-bottom: 19px;
 }
 #p2{
-    width: 518px;
-    height: 46px;
-    font-size: 16px;
+    font-size: 1em;
     letter-spacing: 0px;
     line-height: 23px;
     color: #ffffff;
@@ -111,29 +108,27 @@ h5 span { color: var(--qirmizi) }
     background: #0c1119;
 }
 .row1{
-    height: 150px;
-    width: 75%;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    padding-bottom: 40px;
 }
 #p3{
-    font-size: 15px;
+    font-size: 1em;
     color: #ffffff;
     font-weight: 400;
     font-family: "Open Sans";
     padding: 32px 0;
 }
 #p4{
-    font-size: 14px;
+    font-size: 0.9em;
     color: #8297a7;
     font-weight: 400;
     font-family: "Open Sans";
 }
+.row2{
+    display: flex;
+}
 .row2 a{
     color: white;
     background-color: white;
-    height: 52px;
     border-radius: 50%;
     padding: 10px;
     margin-right: 12px;
@@ -154,25 +149,25 @@ h5 span { color: var(--qirmizi) }
 }
 .row3{
     display: flex;
-    justify-content: right;
-    width: 75%;
-    padding: 50px 0;
+    flex-direction: column;
 }
 .row3 input:first-of-type {
-    width: 200px;
+    min-width: 200px;
 }
 .row3 input:last-of-type {
-    width: 340px;
+    min-width: 340px;
 }
 .row3 input{
     padding: 15px 23px;
     margin-left: 6px;
     outline: none;
+    margin-bottom: 6px;
 }
 .row3 button{
     padding: 15px 31px;
     margin-left: 6px;
     color: white;
+    margin-bottom: 6px;
 }
 @media only screen and (min-width: 768px) {
     .container { 
@@ -204,5 +199,23 @@ h5 span { color: var(--qirmizi) }
     .col66 { width: 66.66%; }
     .fleft { float: left; }
     .fright { float: right; }
-
+    .row1{
+        height: 150px;
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }  
+    .row3{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        padding: 50px 0;
+        width: 100%;
+    }
+    .row4{
+        width: 75%;
+        display: flex;
+        margin: 0 auto;
+    }
 }
